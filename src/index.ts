@@ -9,7 +9,8 @@ window.RahmetWebApp = {
     onBackPressed: () => false,
     didScanQrText: () => {},
     didGetReferralCode: () => {},
-    onKeyboardClosed: () => {}
+    onKeyboardClosed: () => {},
+    didGetIsNotificationStatus: () => {}
 };
 
 export * from './methods';

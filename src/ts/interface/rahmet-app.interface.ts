@@ -13,4 +13,6 @@ export interface IRahmetApp {
     shareText?: (text: string) => void;
     clearCache?: () => void;
     reloadPage?: () => void;
+    getNotificationStatus: () => void;
+    requestNotificationStatus: () => void;
 }

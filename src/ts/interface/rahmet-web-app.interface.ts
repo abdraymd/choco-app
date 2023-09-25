@@ -1,4 +1,5 @@
 import { GeoStatus } from '../enum/geo-status.enum';
+import { NotificationStatus } from '../enum/notification-status.enum';
 
 export interface IRahmetWebApp {
     onAuthSuccess: (trackId: string) => unknown;
@@ -12,4 +13,5 @@ export interface IRahmetWebApp {
     didScanQrText: (text: string) => string | void;
     didGetReferralCode: (code: string) => unknown;
     onKeyboardClosed: Function;
+    didGetIsNotificationStatus: (status: NotificationStatus) => NotificationStatus | void;
 }

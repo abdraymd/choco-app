@@ -11,3 +11,4 @@ export { isLocationEnabled } from './is-location-enabled';
 export { openQR } from './open-qr';
 export { pay } from './pay';
 export { requestGeoPermissionStatus } from './request-geo';
+export { getNotificationStatus, requestNotificationStatus } from './notification-status';
