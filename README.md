@@ -237,7 +237,7 @@ import { getNotificationStatus } from 'choco-app';
 
 getNotificationStatus().then(status => {
     if (status === 'granted') {
-        // Когда уведомлений разрешины
+        // Когда уведомлений разрешены
     }
 }));
 ```
@@ -256,7 +256,7 @@ import { requestNotificationStatus } from 'choco-app';
 
 requestNotificationStatus().then(status => {
     if (status === 'granted') {
-        // Когда уведомлений разрешины
+        // Когда уведомлений разрешены
     }
 }));
 ```
