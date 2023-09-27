@@ -242,7 +242,7 @@ getNotificationStatus().then(status => {
 }));
 ```
 
-### `getNotificationStatus`
+### `requestNotificationStatus`
 
 Type: `() => Promise<NotificationStatus>`<br>
 
